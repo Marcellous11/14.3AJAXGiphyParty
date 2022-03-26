@@ -1,0 +1,51 @@
+body {
+	background-color: rgb(2, 0, 36);
+	background-image: linear-gradient(
+		312deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(40, 40, 119, 1) 48%,
+		rgba(179, 149, 26, 1) 100%
+	);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+#gifContainer {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h1 {
+	text-align: center;
+}
+form {
+	margin-left: 37vw;
+}
+#submitBtn {
+	background-color: springgreen;
+}
+
+#clearBtn {
+	background-color: red;
+}
+
+img {
+	position: relative;
+	height: 30vh;
+	width: 36vh;
+	margin: auto;
+	margin-top: 2vh;
+	transition: width 1s, height 1s;
+}
+img:hover {
+	position: relative;
+	height: 32vh;
+	width: 38vh;
+	margin: auto;
+	margin-top: 2vh;
+	z-index: 2;
+}
